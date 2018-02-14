@@ -1,6 +1,14 @@
-div{
-  background-color: grey;
-  height: 2em;
+.header{
+  background-color: #AFD4C0;
+  height: 125px;
+
+
+}
+.menu{
+  background-color: #757675;
+  height: 50px;
+  box-shadow: 2px 2px 2px #606368;
+  margin-bottom: 3px;
 }
 html, body{
   height: 100%;
@@ -9,10 +17,9 @@ ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #f1f1f1;;
+  background-color: #edf8ed;
   width: 200px;
   height: 100%;
-  position: fixed;
   overflow: auto;
   font-family: Helvetica;
   line-height: 40px;
@@ -28,6 +35,21 @@ li a{
 
 }
 li:hover{
-  background-color: #555;
+  background-color: #9ED09E;
   color: white;
+}
+img{
+  border: 1px solid black;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h1{
+text-align: center;
+vertical-align: middle;
+line-height: 125px;
+color: white;
+font-family: Helvetica;
+text-shadow: 2px 2px 5px black;
 }
