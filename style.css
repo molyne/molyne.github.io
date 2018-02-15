@@ -97,19 +97,25 @@ li:hover{
 #header{
   background-color: red;
   height: 100px;
+
 }
 #footer{
   background-color: blue;
   height: 100px;
+
 }
-.containerHorizontal>div:nth-child(odd){
+/* .containerHorizontal>div:nth-child(odd){
   background-color: lime;
-  flex: 1;
+  flex:1;
 
-
+} */
+.menu{
+  flex:1;
+}
+.sidebar{
+  flex:1.5;
 }
 .containerHorizontal>div:nth-child(even){
   background-color: pink;
-  flex: 2;
-
+  flex: 4;
 }
