@@ -1,4 +1,4 @@
-.header{
+/* .header{
   background-color: #AFD4C0;
   height: 125px;
 
@@ -10,6 +10,10 @@
   box-shadow: 2px 2px 2px #606368;
   margin-bottom: 3px;
 }
+
+
+
+
 html, body{
   height: 100%;
 }
@@ -52,4 +56,28 @@ line-height: 125px;
 color: white;
 font-family: Helvetica;
 text-shadow: 2px 2px 5px black;
+} */
+.containerVertical{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.containerVertical .containerHorizontal{
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+}
+#header{
+  background-color: red;
+}
+#footer{
+  background-color: blue;
+  grid-row-start: 2;
+grid-row-end: 3;
+}
+.containerHorizontal>div:nth-child(odd){
+  background-color: lime;
+}
+.containerHorizontal>div:nth-child(even){
+  background-color: pink;
 }
