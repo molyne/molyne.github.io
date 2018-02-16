@@ -52,7 +52,7 @@ padding-top: 40px;
 aside{
   flex:1.5;
   margin: 10px 20px 10px 10px;
-  min-width: 260px;
+  min-width: 270px;
 }
 main{
   background-color:  #b3b7bc;
@@ -87,11 +87,15 @@ img{
   float: left;
   height: 80px;
   width: 80px;
+  position: relative;
+  top: 30px;
 }
 #camilla{
   float: left;
   height: 90px;
   width: 90px;
+  position: relative;
+  top:30px;
 }
 .border{
   padding: 15px;
@@ -101,15 +105,15 @@ img{
 .abilities{
   position: relative;
   top: 60px;
-  left: 20px;
+  left: 10px;
 
 }
 .listAbilites{
   position: relative;
   top: 70px;
-  left: 20px;
+  left: 30px;
 }
 .name{
   position: relative;
-  left: 20px;
+  left: 10px;
 }
