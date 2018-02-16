@@ -145,7 +145,7 @@ h2{
   width: 95%;
   height: auto;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   /* hej */
 	main { background-color: hotpink; }
 }
