@@ -145,3 +145,6 @@ h2{
   width: 95%;
   height: auto;
 }
+@media (max-width: 768px) {
+	main { background-color: hotpink; }
+}
