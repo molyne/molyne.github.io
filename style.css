@@ -126,8 +126,14 @@ img{
 table {
 border-collapse: collapse;
 float: right;
+position: relative;
+right: 40px;
+margin-top: 20px;
 }
 table, th, td{
  border: 1px solid black;
  padding: 2px;
+}
+h2{
+  margin-bottom: 20px;
 }
