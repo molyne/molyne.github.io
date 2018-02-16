@@ -83,13 +83,16 @@ img{
   height: 100%;
 }
 #molyn{
-  height: 20px;
-  width: 40px;
+  float: left;
+  height: 80px;
+  width: 80px;
 }
 #camilla{
-  height: 20px;
-  width: 40px;
+  float: left;
+  height: 90px;
+  width: 90px;
 }
 .border{
+  height: 150px;
   border: 1px solid black;
 }
