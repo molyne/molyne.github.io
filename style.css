@@ -26,7 +26,7 @@
   text-decoration: none;
 }
 .menu> li:hover{
-  background-color: #49c5b6;
+  background-color: #7EEABF;
   color: white;
 }
 header{
@@ -66,14 +66,6 @@ main{
   color: #474747;
   word-spacing: 5px;
   line-height: 20px;
-}
-h1{
-text-align: center;
-vertical-align: middle;
-line-height: 45px;
-color: #49c5b6;
-font-family: Helvetica;
-text-shadow: 2px 2px 5px black;
 }
 body{
   background-color: #f9fafc;
