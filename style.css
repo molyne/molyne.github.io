@@ -121,10 +121,11 @@ img{
   width: 50%;
   height: auto;
   float:left;
+  margin-right: 30px;
 }
 table {
 border-collapse: collapse;
-
+float: right;
 }
 table, th, td{
  border: 1px solid black;
