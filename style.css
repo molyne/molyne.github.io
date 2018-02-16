@@ -93,7 +93,22 @@ img{
   width: 90px;
 }
 .border{
-  padding: 10px;
+  padding: 15px;
   height: 150px;
   border: 1px solid black;
+}
+.abilities{
+  position: relative;
+  top: 60px;
+  left: 20px;
+
+}
+.listAbilites{
+  position: relative;
+  top: 70px;
+  left: 20px;
+}
+.name{
+  position: relative;
+  left: 20px;
 }
