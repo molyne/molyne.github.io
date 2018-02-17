@@ -80,18 +80,20 @@ img{
 }
 #molyn{
   float: left;
-  height: 80px;
+  width: 120px;
+  /* height: 80px;
   width: 80px;
   position: relative;
-  top: 30px;
+  top: 30px; */
   box-shadow: 1px 2px 5px 0px rgba(125,125,125,1);
 }
 #camilla{
   float: left;
-  height: 90px;
-  width: 90px;
+  width: 120px;
+  /* height: 80px;
+  width: 80px;
   position: relative;
-  top:30px;
+  top: 30px; */
   box-shadow: 1px 2px 5px 0px rgba(125,125,125,1);
 }
 .border{
@@ -127,10 +129,10 @@ img{
 }
 table {
 border-collapse: collapse;
-float: right;
+/*float: right; 
 position: relative;
 right: 40px;
-margin-top: 20px;
+margin-top: 20px; */
 }
 table, th, td{
  border: 1px solid black;
@@ -138,6 +140,10 @@ table, th, td{
 }
 h2{
   margin-bottom: 20px;
+}
+.productinfo{
+position: relative;
+top: 100px;
 }
 .frame{
   position: relative;
