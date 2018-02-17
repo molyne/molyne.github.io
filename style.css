@@ -122,11 +122,20 @@ img{
   top: 0px;
   left: 10px;
 }
-.productsimg{
+.product{
+  /* width: 50%;
+  height: auto; */
+  /* float:left; */
+  /* margin-right: 30px; */
+}
+.producttxt{
+  margin-bottom: 30px;
+}
+.productpic{
+  border: 1px solid black;
+  float:left;
   width: 50%;
   height: auto;
-  float:left;
-  margin-right: 30px;
 }
 table {
 border-collapse: collapse;
@@ -141,10 +150,6 @@ table, th, td{
 }
 h2{
   margin-bottom: 20px;
-}
-.productinfo{
-position: relative;
-top: 100px;
 }
 .frame{
   position: relative;
