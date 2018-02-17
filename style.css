@@ -101,6 +101,7 @@ img{
   height: 150px;
   background-color: #c0eddb;
   font-family: Helvetica;
+  font-size: 15px;
   color: #474747;
   margin-bottom: 20px;
   box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.70);
@@ -118,7 +119,7 @@ img{
 }
 .name{
   position: relative;
-  top: 10px;
+  top: 0px;
   left: 10px;
 }
 .productsimg{
@@ -129,7 +130,7 @@ img{
 }
 table {
 border-collapse: collapse;
-/*float: right; 
+/*float: right;
 position: relative;
 right: 40px;
 margin-top: 20px; */
