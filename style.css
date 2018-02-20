@@ -78,8 +78,8 @@ img{
 .profilePicture{
   float: left;
   width: 120px;
-  height: auto;
-  /* height: 80px;
+  height: 150px;
+  /*
   width: 80px;
   position: relative;
   top: 30px; */
@@ -88,7 +88,7 @@ img{
 .border{
   display: inline-block;
   padding: 15px;
-  width: 87%;
+  width: 275px;
   height: auto;
   background-color: #c0eddb;
   font-family: Helvetica;
@@ -149,8 +149,9 @@ h2{
   margin-bottom: 20px;
 }
 .frame{
-  border: 1px solid;
-  float: left;
+  position:relative;
+  top: -15px;
+  left: 4px;
   width: 95%;
   height: auto;
 }
