@@ -10,14 +10,14 @@
 .menu{
   list-style-type: none;
   font-family: Helvetica;
-  border: 1px solid black;
   margin:0;
   padding:0;
   width:200px;
+  line-height: 40px;
 }
 .menu>li{
   color: #474747;
-  border: 1px solid black;
+  padding-left: 20px;
 }
 
 .menu> li:hover{
