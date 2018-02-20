@@ -85,7 +85,7 @@ img{
 }
 #molyn{
   float: left;
-  width: 50%;
+  width: 47%;
   height: auto;
   /* height: 80px;
   width: 80px;
@@ -95,7 +95,7 @@ img{
 }
 #camilla{
   float: left;
-  width: 50%;
+  width: 47%;
   height: auto;
   /* height: 80px;
   width: 80px;
@@ -104,8 +104,10 @@ img{
   box-shadow: 1px 2px 5px 0px rgba(125,125,125,1);
 }
 .border{
+  display: inline-block;
   padding: 15px;
-  height: 150px;
+  width: 87%;
+  height: auto;
   background-color: #c0eddb;
   font-family: Helvetica;
   font-size: 15px;
