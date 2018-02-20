@@ -12,9 +12,8 @@
   font-family: Helvetica;
   margin:0;
   padding:0;
-  width:200px;
+  /* width:200px; */
   line-height: 40px;
-  border: 1px solid black;
 }
 .menu>li{
   color: #474747;
@@ -170,24 +169,22 @@ h2{
   }
   nav {
     order: 2;
-    margin: 20px 100px 0px 100px;
-    border: 1px solid black;
+    margin: 0px 100px 0px 100px;
+    flex: 0 0 30px;
+    min-width: 400px;
   }
   aside {
     order: 3;
     margin: 10px 100px;
   }
 
-  .menu {
-    width: 400px;
-    text-align: center;
-
-
-  }
   .menu>li{
   display: inline;
-  padding: 0;
+  padding: 10px;
 
+  }
+  .frame{
+    display: none;
   }
 
 }
