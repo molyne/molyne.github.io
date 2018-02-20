@@ -63,7 +63,7 @@ main{
   background-color:  #b3b7bc;
   flex: 4;
   box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.90);
-  padding: 40px 40px;
+  padding: 30px 40px;
   margin: 10px 10px 10px 10px;
   font-family: Helvetica;
   color: #474747;
@@ -137,7 +137,7 @@ img{
 .productpic{
   float:left;
   width: 50%;
-  height: 300px;
+  height: 320px;
   margin-right: 40px;
   box-shadow: 1px 2px 5px 0px rgba(125,125,125,1);
 }
@@ -147,7 +147,7 @@ img{
 table {
 border-collapse: collapse;
 position: relative;
-right: 30px;
+right: 20px;
 top: 25px;
 float: right;
 }
@@ -157,6 +157,7 @@ table, th, td{
 }
 h2{
   margin-bottom: 20px;
+  text-align: center;
 }
 .frame{
   position: relative;
