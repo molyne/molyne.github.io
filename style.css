@@ -61,7 +61,6 @@ nav{
 aside{
   flex:1.5;
   margin: 10px 20px 10px 10px;
-  min-width: 280px;
 }
 main{
   background-color:  #b3b7bc;
@@ -86,7 +85,8 @@ img{
 }
 #molyn{
   float: left;
-  width: 120px;
+  width: 50%;
+  height: auto;
   /* height: 80px;
   width: 80px;
   position: relative;
@@ -95,7 +95,8 @@ img{
 }
 #camilla{
   float: left;
-  width: 120px;
+  width: 50%;
+  height: auto;
   /* height: 80px;
   width: 80px;
   position: relative;
