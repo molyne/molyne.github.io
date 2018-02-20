@@ -10,15 +10,16 @@
 .menu{
   list-style-type: none;
   font-family: Helvetica;
+  border: 1px solid black;
+  margin:0;
+  padding:0;
+  width:200px;
 }
 .menu>li{
   color: #474747;
+  border: 1px solid black;
 }
-.menu>li a{
-  display: block;
-  color: #000;
-  text-decoration: none;
-}
+
 .menu> li:hover{
   background-color: #7EEABF;
   color: white;
