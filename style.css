@@ -238,7 +238,8 @@ h2{
 .profilePictureDiv {
   width: 160px;
   height: auto;
-  min-height: 80px;
+  min-height: 90px;
+  min-width: 130px;
   margin: 0px;
   font-size: 10px;
 
