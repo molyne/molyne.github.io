@@ -229,35 +229,37 @@ h2{
   }
   aside{
     margin: 1px 1px;
+    border: 1px solid black;
   }
   header{
     margin: 0px 0px;
   }
 
 .profilePictureDiv {
-  width: 50%;
+  width: 160px;
   height: auto;
+  margin: 0px;
+  font-size: 11px;
 
 
 }
 .profilePicturePic {
-  width: 50%;
+  width: 40%;
   height: auto;
 }
 
 .abilities{
-  clear: left;
+
   position: relative;
-  top: 5px;
-  left: 0;
+  top: 20px;
+  left: 30px;
 
 }
 .listAbilites{
-  clear: left;
+
   position: relative;
-  top: 10px;
-  left: 0;
-  padding-left: 10px;
+  top: 30px;
+  left: 30px;
 
 }
 }
