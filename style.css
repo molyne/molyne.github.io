@@ -216,7 +216,7 @@ h2{
     width: auto;
   }
   .profilePictureDiv{
-    min-width: 245px;
+    /*min-width: 245px; */
   }
 }
 @media (max-width:715px){
@@ -232,8 +232,35 @@ h2{
   aside{
     margin: 1px 1px;
     width: auto;
+    border:1px solid black;
   }
   header{
     margin: 0px 0px;
   }
+
+.profilePictureDiv {
+  width: 50%;
+  height: auto;
+}
+.profilePicturePic {
+  width: 50%;
+  height: auto;
+}
+
+.abilities{
+  clear: left;
+  position: relative;
+  top: 5px;
+  left: 0;
+
+}
+.listAbilites{
+  clear: left;
+  position: relative;
+  top: 10px;
+  padding-left: 10px;
+  left: 0;
+
+
+}
 }
