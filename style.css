@@ -177,14 +177,13 @@ h2{
   aside {
     order: 3;
     margin: 10px 100px;
-    border: 1px solid black;
     width: 752.5px;
     display: flex;
     justify-content: center;
     align-items: baseline;
   }
   .border{
-    margin: 5px;
+    margin: 20px;
   }
 
   .menu>li{
