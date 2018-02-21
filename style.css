@@ -165,7 +165,6 @@ h2{
     height: auto;
   }
   main {
-    <-- Mindre skärm på datorer anpassning-->
     order: 1;
     margin: 10px 100px;
     width: 672.5px;
@@ -201,7 +200,6 @@ h2{
 }
 @media (max-width:872.5px){
   main{
-    <-- Surfplatta skärm anpassning-->
     margin: 10px 20px;
     width: auto;
   }
@@ -216,6 +214,6 @@ h2{
 }
 @media (max-width:?){
   main{
-    <-- Mobil annpassad skärm-->
+
   }
 }
