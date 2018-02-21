@@ -166,6 +166,7 @@ h2{
   main {
     order: 1;
     margin: 10px 100px;
+    width: 672.5px;
   }
   nav {
     order: 2;
