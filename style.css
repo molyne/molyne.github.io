@@ -217,8 +217,15 @@ h2{
     min-width: 245px;
   }
 }
-@media (max-width:400px){
+@media (max-width:715px){
   main{
     background-color: red;
+    margin: 0px 0px;
+  }
+  nav{
+    margin: 10px 0px;
+  }
+  aside{
+    margin: 0px 0px;
   }
 }
