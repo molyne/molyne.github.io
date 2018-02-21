@@ -204,12 +204,12 @@ h2{
   main{
     margin: 10px 20px;
     width: auto;
-    min-width: 590px;
+    /* min-width: 590px; */
   }
   nav{
     width: auto;
     margin: 10px 20px;
-    min-width: 670px;
+    /* min-width: 670px; */
   }
   aside{
     margin: 10px 20px;
@@ -222,12 +222,18 @@ h2{
 @media (max-width:715px){
   main{
     background-color: red;
-    margin: 0px 0px;
+    margin: 1px 1px;
+    width: auto;
   }
   nav{
-    margin: 10px 0px;
+    margin: 10px 1px;
+    width: auto;
   }
   aside{
+    margin: 1px 1px;
+    width: auto;
+  }
+  header{
     margin: 0px 0px;
   }
 }
