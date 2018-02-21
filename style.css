@@ -198,3 +198,13 @@ h2{
   }
 
 }
+@media (max-width:872.5px){
+  main{
+    margin: 10px 20px;
+    width: auto;
+  }
+  nav{
+    width: auto;
+    margin: 10px 20px;
+  }
+}
