@@ -123,10 +123,7 @@ img{
   /* float:left; */
   /* margin-right: 30px; */
 }
-.producttxt{
 
-
-}
 .productpic{
   width: 50%;
   height: auto;
@@ -142,11 +139,11 @@ border-collapse: collapse;
 margin-top: 20px;
 float: right;
 
-
 }
 table, th, td{
- border: 1px solid black;
+ border: 1px solid #474747;
  padding: 2px;
+
 }
 h2{
   margin-bottom: 20px;
@@ -181,6 +178,7 @@ h2{
     order: 3;
     margin: 10px 100px;
     width: 752.5px;
+    flex: 0 0 auto;
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -231,8 +229,6 @@ h2{
   }
   aside{
     margin: 1px 1px;
-    width: auto;
-    border:1px solid black;
   }
   header{
     margin: 0px 0px;
@@ -241,6 +237,8 @@ h2{
 .profilePictureDiv {
   width: 50%;
   height: auto;
+  overflow:
+
 }
 .profilePicturePic {
   width: 50%;
@@ -258,9 +256,8 @@ h2{
   clear: left;
   position: relative;
   top: 10px;
-  padding-left: 10px;
   left: 0;
-
+  padding-left: 10px;
 
 }
 }
