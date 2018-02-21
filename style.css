@@ -207,4 +207,8 @@ h2{
     width: auto;
     margin: 10px 20px;
   }
+  aside{
+    margin: 10px 20px;
+    width: auto;
+  }
 }
