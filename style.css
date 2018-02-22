@@ -52,6 +52,10 @@ footer{
   font-family: Helvetica;
   font-size: 14px;
 }
+#Contact{
+  display: grid;
+  align-items: center;
+}
 nav{
   background-color:  #b3b7bc;
   flex: 0 0 175px;
