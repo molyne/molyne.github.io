@@ -137,12 +137,20 @@ img{
 table {
 border-collapse: collapse;
 margin-top: 20px;
+position: relative;
+right: 40px;
 float: right;
 
 }
 table, th, td{
- border: 1px solid #474747;
+ border: 1px solid rgb(179, 180, 173);
+ box-shadow: 1px 2px 5px 0px rgba(125,125,125,1);
+ background: white;
  padding: 2px;
+
+}
+th{
+background: #c0eddb;
 
 }
 h2{
@@ -229,6 +237,7 @@ h2{
   }
   aside{
     margin: 1px 1px;
+    display: inline-block;
 
   }
   header{
@@ -245,12 +254,12 @@ h2{
   }
 
 .profilePictureDiv {
-  width: 160px;
-  height: auto;
-  min-height: 90px;
+  width: 400px;
+  height: 200px;
+  /* min-height: 90px;
   min-width: 130px;
-  margin: 0px;
-  font-size: 10px;
+  font-size: 10px; */
+  margin: 0 100px;
 
 
 
