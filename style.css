@@ -26,6 +26,9 @@
 a:visited{
   color: #474747;
 }
+a:link{
+  color: #474747;
+}
 
 .menu> li:hover{
   background-color: #7EEABF;
