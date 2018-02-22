@@ -236,9 +236,9 @@ h2{
     width: auto;
   }
   aside{
-    margin: 1px 1px;
-    display: inline-block;
-    text-align: center;
+  display: grid;
+    border: 1px solid black;
+    justify-content: center;
 
   }
   header{
@@ -253,37 +253,6 @@ h2{
     margin: 15px 0px 0px 20px;
 
   }
-
-.profilePictureDiv {
-  width: 90%;
-  height: auto;
-  /* min-height: 90px;
-  min-width: 130px;
-  font-size: 10px; */
-  margin: 1px 1px;
-
-
-
-}
-.profilePicturePic {
-  width: 35%;
-  height: auto;
-}
-
-.abilities{
-
-  position: relative;
-  top: 20px;
-  left: 25px;
-
-}
-.listAbilites{
-
-  position: relative;
-  top: 25px;
-  left: 20px;
-
-}
 
 .productpic{
   margin-right: 20px;
