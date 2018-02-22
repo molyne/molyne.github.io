@@ -217,10 +217,11 @@ h2{
     /* min-width: 670px; */
   }
   aside{
-    margin: 10px 20px;
+    margin: 1px 1px;
     width: auto;
   }
   .profilePictureDiv{
+
     /*min-width: 245px; */
   }
 }
@@ -237,6 +238,7 @@ h2{
   aside{
     margin: 1px 1px;
     display: inline-block;
+    text-align: center;
 
   }
   header{
@@ -253,12 +255,12 @@ h2{
   }
 
 .profilePictureDiv {
-  width: 400px;
-  height: 200px;
+  width: 90%;
+  height: auto;
   /* min-height: 90px;
   min-width: 130px;
   font-size: 10px; */
-  margin: 0 100px;
+  margin: 1px 1px;
 
 
 
