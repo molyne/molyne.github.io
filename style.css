@@ -267,5 +267,5 @@ h2{
   margin-bottom: 20px;
 }
 header>img{
-  display: none;
+  visibility: hidden;
 }
