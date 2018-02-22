@@ -240,7 +240,6 @@ h2{
   }
   aside{
   display: grid;
-    border: 1px solid black;
     justify-content: center;
 
   }
@@ -255,6 +254,14 @@ h2{
   h2{
     margin: 15px 0px 0px 20px;
 
+  }
+
+  table {
+  position: relative;
+  right: 0px;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 .productpic{
