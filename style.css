@@ -266,6 +266,6 @@ h2{
   height: 100%;
   margin-bottom: 20px;
 }
-header>img{
-  visibility: hidden;
+.header2{
+  display: none;
 }
