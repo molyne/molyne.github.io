@@ -185,7 +185,6 @@ h2{
   }
   .profilePictureDiv{
     margin: 20px;
-    <-- test-->
   }
 
   .menu>li{
@@ -222,6 +221,7 @@ h2{
     background-color: red;
     margin: 1px 1px;
     width: auto;
+    padding: 1px;
   }
   nav{
     margin: 10px 1px;
@@ -235,6 +235,15 @@ h2{
     margin: 0px 0px;
   }
 
+  footer{
+    padding: 10px;
+  }
+
+  h2{
+    margin: 15px 0px 0px 20px;
+
+  }
+
 .profilePictureDiv {
   width: 160px;
   height: auto;
@@ -242,6 +251,7 @@ h2{
   min-width: 130px;
   margin: 0px;
   font-size: 10px;
+
 
 
 }
@@ -264,4 +274,7 @@ h2{
   left: 20px;
 
 }
+
+.productpic{
+  margin-right: 20px;
 }
