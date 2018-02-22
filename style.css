@@ -31,6 +31,7 @@ a:link{
   background-color: #7EEABF;
   color: white;
 }
+
 header{
   height: auto;
   margin-bottom: 10px;
@@ -159,7 +160,9 @@ h2{
 .Headersmenu{
   color: #474747;
   padding-left: 20px;
+  margin: 10px 0px;
   font-size: 18px;
+  font-family: Helvetica;
 }
 @media (max-width: 971px) {
   .containerVertical .containerHorizontal{
@@ -189,6 +192,9 @@ h2{
   }
   .profilePictureDiv{
     margin: 20px;
+  }
+  .menu{
+  display: inline;
   }
   .menu>li{
   display: inline;
@@ -247,6 +253,7 @@ h2{
     margin-right: auto;
   }
   .menu{
+    display: block;
     text-align: center;
   }
   .menu>li{
